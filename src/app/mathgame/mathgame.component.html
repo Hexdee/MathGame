@@ -1,0 +1,19 @@
+<div sui-container class="main-container">
+    <h2 sui-header class="ui center aligned">Mathematics Addition Game</h2>
+    <hr>
+    <div sui-segment>
+        <!-- <h3>Addition Question:</h3> -->
+        <p class="question">{{ firstNumber }} + {{ secondNumber }}</p>
+        <form [formGroup]="mathForm" (ngSubmit)="checkAnswer()" sui-form>
+            <div suiFormField>
+                <input type="number" formControlName="answer" placeholder="Enter your answer" autofocus>
+            </div>
+            <button type="submit" sui-button>Submit</button>
+        </form>
+    </div>
+    <div sui-segment>
+        <h3>Attempts:</h3>
+        <p>Correct Attempts: {{ correctAttempts }}</p>
+        <p>Incorrect Attempts: {{ incorrectAttempts }}</p>
+    </div>
+</div>

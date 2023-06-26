@@ -1,27 +1,64 @@
-# Mathgame
+# MathGame
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+Mathgame is a simple application that tests your addition skills. It presents random addition questions and prompts you to provide the correct answer.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Randomly generated addition questions
+- Input field to enter your answer
+- Check the correctness of your answer
+- Keep track of correct and incorrect attempts
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: A TypeScript-based web application framework
+- ngx-semantic: An Angular-specific package for utilizing the Semantic UI CSS framework
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+- Node.js: Make sure you have Node.js installed on your machine. You can download it from the official website: [Node.js](https://nodejs.org)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation
 
-## Running end-to-end tests
+1. Clone the repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+git clone https://github.com/hexdee/mathgame
+```
 
-## Further help
+2. Navigate to the project directory:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+cd mathgame
+```
+
+3. Install the dependencies:
+
+```
+npm install
+```
+
+### Running the Application
+
+1. Start the development server:
+
+```
+npm start
+```
+
+2. Open your browser and visit [http://localhost:4200](http://localhost:4200) to access the application.
+
+### Usage
+
+1. The application will display a random addition question in the format `a + b`, where `a` and `b` are random numbers.
+2. Enter your answer in the input field provided.
+3. Press the "Enter" key to submit your answer.
+4. The application will inform you if your answer is correct or incorrect.
+5. Another random addition question will be displayed.
+6. Track the number of correct and incorrect attempts in the respective section.
+
+## Author
+
+- Hexdee: [Hexdee](https://github.com/hexdee)
